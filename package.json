@@ -1,0 +1,25 @@
+{
+  "name": "pp-timer-svc",
+  "version": "0.0.1",
+  "description": "Pixel Playoffs Timer Service",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EntertainmentInteractive/pp-timer-svc.git"
+  },
+  "author": "Ian Philpot @tripdubroot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EntertainmentInteractive/pp-timer-svc/issues"
+  },
+  "homepage": "https://github.com/EntertainmentInteractive/pp-timer-svc#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "redis": "^2.6.3"
+  }
+}
